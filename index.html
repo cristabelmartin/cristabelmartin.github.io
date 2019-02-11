@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>I Like!</title>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body >
+  <h1>My Favourite Websites</h1><hr>
+  <!-- <ul> -->
+  <div class="container"><a href="https://playfm.cl/" target="_blank">Play FM</a>
+  <img src="https://pbs.twimg.com/profile_images/912410229622452224/vgshUQdz_400x400.jpg" alt="Play FM"></div>
+
+  <div class="container"><a href="https://www.dramafever.com/drama/4131/2/In_Time_With_You/?ap=1" target="_blank">Dramafever</a>
+  <img src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2018/10/dramafever.jpg?itok=fYHFueqG" alt="Dramafever"></div>
+
+  <div class="container"><a href="http://coldplay.com/" target="_blank">Coldplay</a>
+  <img src="http://playaclub.club/wp-content/uploads/2018/07/coldday.jpg" alt="Coldplay"></div>
+  <!-- </ul> -->
+
+  <form method="GET">
+  <fieldset>
+    <legend>ABOUT YOU</legend>
+    <div class="formulario">
+      First name: 
+      <input type="text" name="firstname">
+    </div>
+    <div class="formulario">
+      Last name: 
+      <input type="text" name="lastname">
+    </div>
+    <div class="formulario">
+      E-mail: 
+      <input type="text" name="email">
+    </div>
+    <div class="formulario">
+      Gender:
+      <input type="radio" name="gender" value="male" checked class="genero"> Male
+      <input type="radio" name="gender" value="female" class="genero"> Female
+      <input type="radio" name="gender" value="other" class="genero"> Other
+    </div>
+    <div class="formulario">
+      Favourite Website: 
+      <select name="favourite" size="4">
+        <option value="playfm">Play FM</option>
+        <option value="dramafever">Dramafever</option>
+        <option value="coldplay" selected="">Coldplay</option>
+        <option value="none">None</option>
+      </select>
+    </div>
+    <div class="formulario">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      </fieldset>
+    </div>
+</form>
+<footer>By Cristabel Martin</footer>
+</body>
+</html>
